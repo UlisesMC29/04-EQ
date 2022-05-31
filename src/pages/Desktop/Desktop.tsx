@@ -5,6 +5,9 @@ import imgPattern from '../../assets/bg-pattern-1.svg'
 import imgPhone from '../../assets/illustration-app.png'
 import iconIOS from '../../assets/icon-apple.svg'
 import iconAnd from '../../assets/icon-android.svg'
+import iconFB from '../../assets/icon-facebook.svg'
+import iconIG from '../../assets/icon-instagram.svg'
+import iconTT from '../../assets/icon-twitter.svg'
 
 export const Desktop = () => {
     return (
@@ -35,15 +38,16 @@ export const Desktop = () => {
                         </div>
                     </div>
                 </div>
-                <div >
+                <div className='footer'>
+                    <h2 className='eq-header'>equalizer</h2>
+                    <p className='txt-footer'>All rights reserved © Equalizer 2021 Have any problems? Contact us via social media or email us at <b>equalizer@example.com</b> </p>
+                    <div className='icons-container'>
+                        <img className='iconFb' src={iconFB} alt="icon fb" />
+                        <img className='iconIg' src={iconIG} alt="icon ig" />
+                        <img className='iconTt' src={iconTT} alt="icon tt" />
+                    </div>
                 </div>
             </body>
-            <div className='footer'>
-                <h2 className='eq-header'>equalizer</h2>
-                <p>All rights reserved © Equalizer 2021
-                    Have any problems? Contact us via social media or email us at </p>
-                <p>equalizer@example.com</p>
-            </div>
         </div>
     )
 }
