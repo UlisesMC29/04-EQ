@@ -179,6 +179,7 @@ body{
 .btn-android:hover{
     background-color:#FFB964;
     cursor: pointer;
+    color: black;
 }
 
 
@@ -222,13 +223,95 @@ body{
     height: 20px;
     padding-right: 10px;
 }
+
+.iconFb:hover{
+    cursor: pointer;
+    filter: invert(100%);
+}
+
 .iconIg{
     width: 20px;
     height: 20px;
     padding-right: 10px;
 }
+
+.iconIg:hover{
+    cursor: pointer;
+    filter: invert(100%);
+}
+
 .iconTt{
     width: 20px;
     height: 20px;
 
 }
+
+.iconTt:hover{
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-image: url('../../assets/bg-main-tablet.png');
+        margin: 0;
+        padding: 0;
+        background-image: url('../../assets/bg-main-desktop.png');
+        background-position:  top ;
+        background-repeat: no-repeat ;
+        max-width: 100%;
+    }
+    .img-pattern{
+    position: absolute;
+    padding-left: 600px;
+    float: right;
+    width: 312px;
+    height: 468px;
+    top: -40px;
+    }
+
+    
+.title-header{
+    display: flex;
+    text-align: justify;
+    padding: 60px 0px 0px 146px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 85px;
+    text-align: left;
+}
+
+.content-body{
+    margin-top: 400px;
+    margin-right: 1200px;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.txt-header{
+    padding-bottom: 150px;
+}
+
+.premium-container{
+    margin-right: 110px;
+    padding-bottom: 50px;
+}
+
+.txt-header{
+    padding: 0px 0px 0px 150px;
+    font-size: 30px;
+    /* text-align: center; */
+    width: 514px;
+    /* height: 112px; */
+    padding-bottom: 800px;
+
+}
+
+.eq-header{
+    margin-top: 70px;
+}
+   
+}
+
